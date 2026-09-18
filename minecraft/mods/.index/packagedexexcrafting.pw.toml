@@ -1,0 +1,29 @@
+filename = 'PackagedExExCrafting-1.20.1-1.0.0.6.jar'
+name = 'PackagedExExCrafting'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '1.20.1-1.0.0.6'
+
+[download]
+hash = '98e5aefaba5df0fa4a5f6e263402ae9f7b59ed55d4599e781cba9037e8a5c01f61e44ae39d2948f82a2ca5d4c3cc53fb79a56dd5b0a3fd1f308dfef4b5f4f5ab'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/h3Ycewyr/versions/jdsZudZd/PackagedExExCrafting-1.20.1-1.0.0.6.jar'
+
+[update.modrinth]
+mod-id = 'h3Ycewyr'
+version = 'jdsZudZd'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'XxWD5pD3'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'qO33ACjS'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'ugIdhQx4'
+type = 'REQUIRED'

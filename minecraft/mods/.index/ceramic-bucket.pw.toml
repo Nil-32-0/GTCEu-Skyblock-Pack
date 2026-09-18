@@ -1,0 +1,21 @@
+filename = 'ceramicbucket-1.20.1-4.1.1.0.jar'
+name = 'Ceramic Bucket'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.20.1-4.1.1.0'
+
+[download]
+hash = 'b5715ef3a803b86836ecfec4ace14d8c0be7bce7e9428c0426d99ba50e1f2332081e8fdccd0fa436227ae8cf7180157320084307593ef9f23e195d04be799bf9'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/M9G5zpf1/versions/gSem09NK/ceramicbucket-1.20.1-4.1.1.0.jar'
+
+[update.modrinth]
+mod-id = 'M9G5zpf1'
+version = 'gSem09NK'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'DItE655o'
+type = 'REQUIRED'

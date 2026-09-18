@@ -1,0 +1,25 @@
+filename = 'Lychee-1.20.1-Forge-5.2.1.jar'
+name = 'Lychee'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '5.2.1+forge'
+
+[download]
+hash = '8ebdbd56e729dc36bf0a7729e2f96e068320183b2e52e3abfdd11538e2b0548326eae325e1c04ed36520e21e693a9d3cbdbb2dc62eb7797a56979453147b52a1'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/TdN6LxjM/versions/xRmDtY9h/Lychee-1.20.1-Forge-5.2.1.jar'
+
+[update.modrinth]
+mod-id = 'TdN6LxjM'
+version = 'xRmDtY9h'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'umyGl7zF'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'ufdDoWPd'
+type = 'OPTIONAL'

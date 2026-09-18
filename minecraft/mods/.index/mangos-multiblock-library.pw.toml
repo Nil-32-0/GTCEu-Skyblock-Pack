@@ -1,0 +1,18 @@
+filename = 'mangomultiblock-1.20.1-1.3.0.jar'
+name = "Mango's MultiBlock Library"
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = " Mango's MBL 1.20.1 - 1.3.0"
+
+[download]
+hash = '2419a4d329b3f762c3b942343d498760fda5a73c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5144465
+project-id = 966061

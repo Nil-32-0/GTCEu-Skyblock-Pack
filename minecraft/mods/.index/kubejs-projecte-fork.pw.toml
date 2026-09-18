@@ -1,0 +1,21 @@
+filename = 'kjsprojecte-1.20.1-1.0.jar'
+name = 'KubeJS ProjectE Fork'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0'
+
+[download]
+hash = 'd205820899aa80c6cb67cb6e93a47b0e86786690715e5873b31f0e62b6de4543e20194ab4b1771dd09a9abeb4d9e7705d272cf31727a3d7dc0bfc58ea2c44172'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/2M11Juic/versions/KLeYooZr/kjsprojecte-1.20.1-1.0.jar'
+
+[update.modrinth]
+mod-id = '2M11Juic'
+version = 'KLeYooZr'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'umyGl7zF'
+type = 'REQUIRED'

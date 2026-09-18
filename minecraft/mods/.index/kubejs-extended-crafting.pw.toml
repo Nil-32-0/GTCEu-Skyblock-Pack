@@ -1,0 +1,29 @@
+filename = 'kubejs_extended_crafting-2001.5.jar'
+name = 'Kubejs Extended Crafting'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'kubejs_extended_crafting-2001.5.jar'
+
+[download]
+hash = '46246d32976b1b10c76bc70f44b5f9a62ad9e91e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4999728
+project-id = 955720
+
+[[x-prismlauncher-dependencies]]
+addonId = '238086'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '272335'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '268387'
+type = 'REQUIRED'

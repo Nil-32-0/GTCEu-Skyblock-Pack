@@ -1,0 +1,21 @@
+filename = 'voidminers-1.20.1-1.9.26.2.jar'
+name = 'Voidminer Reforked'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'voidminers-1.20.1-1.9.26.2.jar'
+
+[download]
+hash = '36676a2517d6c4c3ea423c28899d78fc311941cd'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8440692
+project-id = 1415764
+
+[[x-prismlauncher-dependencies]]
+addonId = '966061'
+type = 'REQUIRED'

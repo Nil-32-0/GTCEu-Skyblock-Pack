@@ -1,0 +1,62 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "beginning"
+	group: ""
+	id: "0909321876CF496C"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7DBD218A56D6226C"
+			rewards: [
+				{
+					id: "2492966D0795CC28"
+					item: "minecraft:torch"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5106B8DA7748DFEB"
+					item: "minecraft:bread"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "78EA488A16F14759"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "5BD976A5DE68D680"
+			rewards: [{
+				id: "65EB431FC6589688"
+				item: "gtceu:coke_oven"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "191605D45805B921"
+					item: { Count: 4, id: "gtceu:coke_oven_bricks" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "368283C00808D52B"
+					item: "minecraft:torch"
+					type: "item"
+				}
+			]
+			title: "Jury-Rigged"
+			x: 3.0d
+			y: 0.0d
+		}
+	]
+	title: "Beginning"
+}

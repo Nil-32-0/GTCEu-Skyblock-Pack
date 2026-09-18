@@ -1,0 +1,41 @@
+filename = 'gtceu-1.20.1-7.5.3.jar'
+name = 'GregTech'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'mc1.20.1-7.5.3'
+
+[download]
+hash = '0b4643f3cd1b68d2afb043a461be646b5c6c1cc04f4a3fddde3baae7e4ce2b81265453cc4794736141d65287a2b109995dd202c3d6de618f229d1f8d32e34ce8'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/7tG215v7/versions/yLwvjuvy/gtceu-1.20.1-7.5.3.jar'
+
+[update.modrinth]
+mod-id = '7tG215v7'
+version = 'yLwvjuvy'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'B1CBVXHX'
+type = 'EMBEDDED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'u6dRKJwZ'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '3WjjSM5O'
+type = 'EMBEDDED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'nvQzSEkH'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'fRiHVvU7'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'umyGl7zF'
+type = 'OPTIONAL'

@@ -1,0 +1,18 @@
+filename = 'StorageDrawers-forge-1.20.1-12.15.0.jar'
+name = 'Storage Drawers'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '1.20.1-12.15.0'
+
+[download]
+hash = 'f9b2ca9442ba4b90ccf76a2e1cc8fdbff94a7de0576eef59636552565ea91cce23e55cd349c37a13c3e719799857795d4a721f39fcc3dc990e0c4dc82b9591b7'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/guitPqEi/versions/FideBiKZ/StorageDrawers-forge-1.20.1-12.15.0.jar'
+
+[update.modrinth]
+mod-id = 'guitPqEi'
+version = 'FideBiKZ'

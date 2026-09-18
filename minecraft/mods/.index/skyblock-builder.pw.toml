@@ -1,0 +1,37 @@
+filename = 'SkyblockBuilder-1.20.1-5.1.33.jar'
+name = 'Skyblock Builder'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.20.1-5.1.33'
+
+[download]
+hash = '6c9de1a58d16637c0a913fe9493e111b346bfe853432322caf180e33eb59741435b34b94ced69bb42fbd0a73b83cdc07f269d6bfdc015d3a67158466ade94aae'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/por2AZc5/versions/Cf9Mrd4W/SkyblockBuilder-1.20.1-5.1.33.jar'
+
+[update.modrinth]
+mod-id = 'por2AZc5'
+version = 'Cf9Mrd4W'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'lo90fZoB'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'cGVpcVeo'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'fEWKxVzh'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'vvuO3ImH'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'qEH6GYul'
+type = 'REQUIRED'

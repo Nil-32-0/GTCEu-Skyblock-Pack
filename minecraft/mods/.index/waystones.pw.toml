@@ -1,0 +1,21 @@
+filename = 'waystones-forge-1.20.1-14.1.21.jar'
+name = 'Waystones'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '14.1.21+forge-1.20.1'
+
+[download]
+hash = '3798eef2f81c2f6066d9dc2dc22bbe9d1c4b62d5aa494c592ffe67ee7f4fb8021361505b3c0b1358d4f9af27e50b1f12d29afb3b4b0b362b5ab227e8be171047'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/LOpKHB2A/versions/Y0IgdaoP/waystones-forge-1.20.1-14.1.21.jar'
+
+[update.modrinth]
+mod-id = 'LOpKHB2A'
+version = 'Y0IgdaoP'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'MBAkmtvl'
+type = 'REQUIRED'

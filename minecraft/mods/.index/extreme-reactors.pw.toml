@@ -1,0 +1,22 @@
+filename = 'ExtremeReactors2-1.20.1-2.0.84.jar'
+name = 'Extreme Reactors'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.20.1-2.0.84'
+
+[download]
+hash = '90bc23690603f1704d3a0a2dc019a8e3931e398c70916c744e2ecbea9f15cc6b10b8df6221afd7cc5375f7677cabf367f3b9a700289e26a4b0b889a5b5b9969c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/idkvShUy/versions/5A5jbWkI/ExtremeReactors2-1.20.1-2.0.84.jar'
+
+[update.modrinth]
+mod-id = 'idkvShUy'
+version = '5A5jbWkI'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'rHpb85Mf'
+type = 'REQUIRED'
+version = 'OIzaNrPI'

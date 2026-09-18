@@ -1,0 +1,29 @@
+filename = 'xnet-1.20-6.1.7.jar'
+name = 'XNet'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.20-6.1.7'
+
+[download]
+hash = '9f25870a3f090bcbb4f9c553c4ce3f067a4fb4ec56bbabdf323597f95e9f08b7a6b6e00f6bafc1e1468311d74eeee81153eb67abb430bb36bd8ab8c9b7f02e0a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/iu1jkWqa/versions/KM14kJoF/xnet-1.20-6.1.7.jar'
+
+[update.modrinth]
+mod-id = 'iu1jkWqa'
+version = 'KM14kJoF'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'hIO8IsD8'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'Eyw0UxEx'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1Zu0uTEE'
+type = 'REQUIRED'

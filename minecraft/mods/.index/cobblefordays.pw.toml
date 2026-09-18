@@ -1,0 +1,18 @@
+filename = 'CobbleForDays-1.8.0.jar'
+name = 'CobbleForDays'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.8.0'
+
+[download]
+hash = '5a99368db1da9da98ed1d980b80c39abf7aad890fecf1e0a578ff17ec26f0810f875a432690f14e08c22dfd2aadb4869e4c299b9434d3b58e70239cb367bbc7f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/hi71AUZ0/versions/Ps3pCBgF/CobbleForDays-1.8.0.jar'
+
+[update.modrinth]
+mod-id = 'hi71AUZ0'
+version = 'Ps3pCBgF'

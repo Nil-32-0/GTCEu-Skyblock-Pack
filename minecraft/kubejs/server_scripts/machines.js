@@ -1,0 +1,36 @@
+// priority: 0
+
+ServerEvents.recipes(event => {
+    event.recipes.gtceu.compressor("medium_covalence_dust")
+        .itemInputs(Item.of("projecte:low_covalence_dust", 8))
+        .itemOutputs(Item.of("projecte:medium_covalence_dust"))
+        .duration(300)
+
+    event.recipes.gtceu.alloy_smelter("high_covalence_dust")
+        .itemInputs(Item.of("kubejs:medium_covalence_dust_block", 3))
+        .notConsumable("gtceu:ball_casting_mold")
+        .itemOutputs(Item.of("projecte:high_covalence_dust"))
+        .EUt(GTValues.V[GTValues.ULV]).duration(600)
+
+    event.recipes.gtceu.alloy_smelter("small_redstone_dust")
+        .itemInputs(Item.of("minecraft:red_dye"), Item.of("projecte:low_covalence_dust"))
+        .itemOutputs(Item.of("gtceu:small_redstone_dust"))
+        .EUt(GTValues.VH[GTValues.ULV]).duration(200)
+
+    event.recipes.gtceu.alloy_smelter("tin_dust")
+        .itemInputs(Item.of("minecraft:gravel"), Item.of("projecte:low_covalence_dust"))
+        .itemOutputs(Item.of("gtceu:tin_dust"))
+        .EUt(GTValues.VH[GTValues.LV]).duration(300)
+    event.recipes.gtceu.alloy_smelter("copper_dust")
+        .itemInputs(Item.of("minecraft:sand"), Item.of("projecte:low_covalence_dust"))
+        .itemOutputs(Item.of("gtceu:copper_dust"))
+        .EUt(GTValues.VH[GTValues.LV]).duration(300)
+    event.recipes.gtceu.alloy_smelter("iron_dust")
+        .itemInputs(Item.of("minecraft:gravel"), Item.of("projecte:medium_covalence_dust"))
+        .itemOutputs(Item.of("gtceu:iron_dust"))
+        .EUt(GTValues.VH[GTValues.LV]).duration(300)
+    event.recipes.gtceu.alloy_smelter("gold_dust")
+        .itemInputs(Item.of("minecraft:sand"), Item.of("projecte:medium_covalence_dust"))
+        .itemOutputs(Item.of("gtceu:gold_dust"))
+        .EUt(GTValues.VH[GTValues.LV]).duration(300)
+})
