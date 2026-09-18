@@ -34,4 +34,5 @@ jobs:
         with:
           tag_name: dev-${{env.datetime}}
           prerelease: true
-          files: *.mrpack
+          files: |
+            *.mrpack
