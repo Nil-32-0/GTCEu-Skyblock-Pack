@@ -4,7 +4,6 @@ import configparser
 import hashlib
 import json
 import os
-import pathlib
 import tomllib
 import urllib.request
 import zipfile
@@ -92,7 +91,7 @@ parser.read("pack.cfg")
 ver = parser.get("General", "Version")
 name = parser.get("General", "Name")
 
-zip_file = zipfile.ZipFile(name + ".mrpack", 'w')
+zip_file = zipfile.ZipFile(name.replace(" ", "_") + ".mrpack", 'w')
 os.chdir("minecraft")
 
 asyncio.run(get_mod_info(zip_file))

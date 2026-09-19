@@ -58,13 +58,6 @@
   // The list of templates being available. The first entry is the default template.
   "templates": [
     {
-      "name": "default",
-      "file": "default.nbt",
-      "spawns": "default",
-      "surroundingBlocks": "default",
-      "spreads": "default"
-    },
-    {
       "name": "simple_tree",
       "file": "simple_tree.snbt",
       "spawns": "exported_at_2026-09-12T18:38:31-0400"

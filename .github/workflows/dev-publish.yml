@@ -12,7 +12,7 @@ jobs:
       contents: write
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with: 
           fetch-depth: 0
           fetch-tags: true
@@ -29,6 +29,9 @@ jobs:
       - name: Build packfile
         working-directory: ./packer
         run: python packPack.py
+
+      - name: Build commit message log
+        run:  echo '${{ toJson(github.event.commits) }}' | jq -r '.[] | .message' >> commit_messages.txt
       
       - name: Get date
         run: echo "datetime=$(date +'%Y-%m-%d-%H-%M-%S')" >> $GITHUB_ENV
@@ -36,6 +39,7 @@ jobs:
       - name: Release
         uses: softprops/action-gh-release@v3
         with:
+          body_path: commit_messages.txt
           tag_name: dev-${{env.datetime}}
           prerelease: true
           files: |
