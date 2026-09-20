@@ -47,16 +47,22 @@ ServerEvents.recipes(event => {
         ['minecraft:red_dye', '8x projecte:low_covalence_dust']
     )
 
+    event.shapeless(
+        Item.of("naturesaura:gold_powder", 2),
+        ['naturesaura:gold_leaf', 'projecte:low_covalence_dust']
+    )
+
     event.shaped(
-        Item.of("minecraft:white_bed"),
+        Item.of("minecraft:sugar_cane"),
         [
-            'MMM',
-            'MMM',
-            'PPP'
+            'DLD',
+            'LSL',
+            'DLD'
         ],
         {
-            M: "minecraft:phantom_membrane",
-            P: "#minecraft:planks"
+            D: "projecte:low_covalence_dust",
+            L: "#minecraft:leaves",
+            S: "#minecraft:saplings"
         }
     )
 })

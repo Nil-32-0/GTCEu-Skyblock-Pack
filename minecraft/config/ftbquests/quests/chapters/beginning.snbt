@@ -206,6 +206,119 @@
 			x: 0.0d
 			y: -1.5d
 		}
+		{
+			dependencies: ["39CA6187810443A6"]
+			id: "0677B275CAB72F93"
+			tasks: [{
+				id: "41EA6887D96FAA85"
+				item: "gtceu:lp_steam_solid_boiler"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"39CA6187810443A6"
+				"28565B016CEA5AFB"
+				"0677B275CAB72F93"
+			]
+			id: "14EDC5E22C82DDF3"
+			tasks: [{
+				id: "0E2BF2B269F202DD"
+				item: "gtceu:lp_steam_compressor"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["14EDC5E22C82DDF3"]
+			id: "3A00A59C9845E014"
+			tasks: [{
+				id: "6F16D3F03B5B81E8"
+				item: "projecte:medium_covalence_dust"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["14EDC5E22C82DDF3"]
+			id: "6ABEE5C009D9C602"
+			tasks: [{
+				id: "5BD3C20FBB802A5E"
+				item: "gtceu:firebricks"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"6ABEE5C009D9C602"
+				"7B6BE7B3E7D94E12"
+			]
+			id: "7FA3FC23A130DD0F"
+			tasks: [{
+				id: "751B57F6CFE9A89D"
+				item: "gtceu:primitive_blast_furnace"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3A00A59C9845E014"]
+			id: "7B6BE7B3E7D94E12"
+			tasks: [
+				{
+					id: "5F86B8B5339D9E94"
+					item: "gtceu:small_iron_dust"
+					type: "item"
+				}
+				{
+					id: "3B7C16DDD03C4481"
+					item: "gtceu:small_gold_dust"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7FA3FC23A130DD0F"]
+			id: "51868EB3E359B92D"
+			tasks: [{
+				id: "42891345C57FF95E"
+				item: "gtceu:steel_ingot"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["51868EB3E359B92D"]
+			id: "458E385C624A202E"
+			tasks: [{
+				id: "5A4B49AEAA44C5CA"
+				item: "gtceu:block_casting_mold"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["458E385C624A202E"]
+			id: "73C77FD5A83DB99E"
+			tasks: [{
+				id: "5EEDAD74D06DCEF7"
+				item: "cobblefordays:tier_1"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 4.0d
+		}
 	]
 	title: "Beginning"
 }

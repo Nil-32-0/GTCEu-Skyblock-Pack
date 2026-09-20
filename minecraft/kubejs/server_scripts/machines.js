@@ -5,6 +5,10 @@ ServerEvents.recipes(event => {
         .itemInputs(Item.of("projecte:low_covalence_dust", 8))
         .itemOutputs(Item.of("projecte:medium_covalence_dust"))
         .duration(300)
+    event.recipes.gtceu.compressor("coal")
+        .itemInputs(Item.of("gtceu:charcoal_block"))
+        .itemOutputs(Item.of("minecraft:coal"))
+        .duration(300)
 
     event.recipes.gtceu.alloy_smelter("high_covalence_dust")
         .itemInputs(Item.of("kubejs:medium_covalence_dust_block", 3))

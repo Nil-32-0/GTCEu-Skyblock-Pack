@@ -99,6 +99,12 @@ ServerEvents.recipes(event => {
     event.custom(LycheeBuilder.initialize("lychee:block_interacting").setItem({item: "kubejs:medium_covalence_dust_block"})
         .setBlock("compressium:sand_1").setPost([replaceBlock, dropItem("gtceu:small_gold_dust", 9)]).build()
     )
+    event.custom(LycheeBuilder.initialize("lychee:block_interacting").setItem({item: "projecte:high_covalence_dust"})
+        .setBlock("minecraft:coal_block").setPost([replaceBlock, dropItem("minecraft:diamond", 1)]).build()
+    )
+    event.custom(LycheeBuilder.initialize("lychee:block_interacting").setItem({item: "kubejs:high_covalence_dust_block"})
+        .setBlock("compressium:coal_1").setPost([replaceBlock, dropItem("minecraft:diamond", 9)]).build()
+    )
 
     event.custom(LycheeBuilder.initialize("lychee:block_interacting").setItem({item: "minecraft:redstone"})
         .setBlock("kubejs:low_covalence_dust_block").setPost([replaceBlock, dropItem("kubejs:unstable_redstone", 1)]).build()
