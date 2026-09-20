@@ -40,6 +40,20 @@ ServerEvents.recipes(event => {
     event.custom(LycheeBuilder.initialize("lychee:block_interacting").setItem({item: "minecraft:torch"})
         .setBlock("minecraft:snow_block").setPost([{type: "prevent_default"}, {type: "place", block: "minecraft:water"}]).build()
     )
+    event.custom(LycheeBuilder.initialize("lychee:block_interacting").setItem({item: "kubejs:apple_mush"})
+        .setBlock("#minecraft:saplings").setPost([replaceBlock, {type: "execute", command: "weather rain 120s", hide: true}, 
+            {
+                type: "drop_item",
+                item: "minecraft:bedrock",
+                nbt: {display: {Name: '{"text": "Summon rain"}'}},
+                contextual: {
+                    type: "chance",
+                    chance: 0.0,
+                    secret: true
+                }
+            }
+        ]).build()
+    )
 
     event.custom(LycheeBuilder.initialize("lychee:block_interacting").setItem({tag: "forge:tools/hammers"})
         .setBlock("minecraft:cobblestone").setPost([replaceBlock, damageItem(1), dropItem("minecraft:gravel", 2)]).build()

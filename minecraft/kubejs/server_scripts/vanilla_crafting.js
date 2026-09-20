@@ -15,6 +15,11 @@ ServerEvents.recipes(event => {
     largeCompress("projecte:high_covalence_dust", Item.of("kubejs:high_covalence_dust_block"))
     simpleShapeless("kubejs:high_covalence_dust_block", Item.of("projecte:high_covalence_dust", 9))
 
+    event.shapeless(
+        Item.of("kubejs:apple_mush"),
+        ["#forge:tools/mortars", "minecraft:apple"]
+    )
+
     event.shaped(
         Item.of("kubejs:stone_hammer"),
         [
@@ -42,5 +47,16 @@ ServerEvents.recipes(event => {
         ['minecraft:red_dye', '8x projecte:low_covalence_dust']
     )
 
-
+    event.shaped(
+        Item.of("minecraft:white_bed"),
+        [
+            'MMM',
+            'MMM',
+            'PPP'
+        ],
+        {
+            M: "minecraft:phantom_membrane",
+            P: "#minecraft:planks"
+        }
+    )
 })

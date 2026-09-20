@@ -28,10 +28,13 @@
 				item: "minecraft:oak_log"
 				type: "item"
 			}]
+			title: "Welcome!"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
+			dependencies: ["395073D5D1770565"]
+			description: ["As you don't have any way to make Iron yet, you'll need some way to get the coke oven controller. Luckily, you realized the torch that was given to you is special and can be used to make one."]
 			id: "5BD976A5DE68D680"
 			rewards: [{
 				id: "65EB431FC6589688"
@@ -54,8 +57,154 @@
 				}
 			]
 			title: "Jury-Rigged"
-			x: 3.0d
+			x: 6.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["7DBD218A56D6226C"]
+			description: ["Right-click grass with an empty hand to get pebbles."]
+			id: "421EB00730091DA4"
+			tasks: [{
+				id: "1F6A9A2FBBE5E1E8"
+				item: "botania:pebble"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["421EB00730091DA4"]
+			id: "10324026A4727F5A"
+			tasks: [{
+				id: "66FDE419BE6FBE0C"
+				item: {
+					Count: 1
+					id: "kubejs:stone_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["10324026A4727F5A"]
+			id: "60A5DA27B33C5FFF"
+			tasks: [
+				{
+					id: "54FAE98DA6795E42"
+					item: "minecraft:gravel"
+					type: "item"
+				}
+				{
+					id: "437247CFC07FF4C1"
+					item: "minecraft:sand"
+					type: "item"
+				}
+			]
+			title: "Crushing Stones"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			description: ["Need it to rain? Use some apple mush on a sapling and it'll sprinkle for a little bit."]
+			id: "3C735686140C6579"
+			optional: true
+			shape: "diamond"
+			size: 0.75d
+			tasks: [{
+				id: "64F144B7585B069E"
+				item: "kubejs:apple_mush"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"3C735686140C6579"
+				"7DBD218A56D6226C"
+			]
+			description: ["The spawn biome is a windswept forest, so you'll get snowfall at y>=120. Set up a platform and wait for a snowstorm or start one yourself."]
+			id: "656640AE35B00D6B"
+			tasks: [{
+				id: "3850ED7F832D181D"
+				item: "minecraft:snow_block"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["656640AE35B00D6B"]
+			id: "395073D5D1770565"
+			tasks: [{
+				id: "670D30D586AE4E0B"
+				item: "minecraft:clay"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5BD976A5DE68D680"]
+			id: "7CD3886504301F3C"
+			tasks: [{
+				id: "1EBBFFE802D00A80"
+				item: "projecte:low_covalence_dust"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"60A5DA27B33C5FFF"
+				"7CD3886504301F3C"
+			]
+			id: "39CA6187810443A6"
+			tasks: [
+				{
+					id: "27BCB5885B0DA476"
+					item: "gtceu:small_copper_dust"
+					type: "item"
+				}
+				{
+					id: "174D77A3BE031F19"
+					item: "gtceu:small_tin_dust"
+					type: "item"
+				}
+			]
+			title: "First Metals"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7CD3886504301F3C"]
+			id: "28565B016CEA5AFB"
+			tasks: [{
+				id: "063430038C401B46"
+				item: "gtceu:small_redstone_dust"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7DBD218A56D6226C"]
+			description: ["Mob spawns of all overworld mobs have been disabled. This is the intended way to play this pack, but this can be disabled by removing or disabling the \"Easy Mob Spawn Control\" mod."]
+			id: "4ED5A82C679959D7"
+			shape: "diamond"
+			size: 0.75d
+			tasks: [{
+				id: "3BC8E6EE6B1F6C26"
+				title: "Mob Spawning"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.5d
 		}
 	]
 	title: "Beginning"
