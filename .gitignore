@@ -1,6 +1,9 @@
 minecraft/logs
 minecraft/crash-reports/
 minecraft/gtceu
+minecraft/kubejs/README.txt
+minecraft/kubejs/*/example.js
+minecraft/kubejs/config/*.properties
 minecraft/local
 minecraft/modernfix
 minecraft/saves
