@@ -19,6 +19,7 @@ minecraft/config/EasyMSC/*
 !minecraft/config/skyblockbuilder/
 minecraft/config/skyblockbuilder/*
 !minecraft/config/skyblockbuilder/templates/
+!minecraft/config/skyblockbuilder/dimensions.json5
 !minecraft/config/skyblockbuilder/structures.json5
 !minecraft/config/skyblockbuilder/templates.json5
 

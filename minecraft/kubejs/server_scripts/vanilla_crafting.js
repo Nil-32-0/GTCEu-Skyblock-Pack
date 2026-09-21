@@ -65,4 +65,22 @@ ServerEvents.recipes(event => {
             S: "#minecraft:saplings"
         }
     )
+
+    event.shaped(
+        Item.of("minecraft:netherrack", 4),
+        ['NC', 'CN'],
+        {
+            N: "minecraft:netherrack",
+            C: "minecraft:cobblestone"
+        }
+    )
+
+    event.shaped(
+        Item.of("compressium:netherrack_1", 4),
+        ['NC', 'CN'],
+        {
+            N: "compressium:netherrack_1",
+            C: "compressium:cobblestone_1"
+        }
+    )
 })
