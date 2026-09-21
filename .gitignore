@@ -30,14 +30,14 @@ minecraft/kubejs/README.txt
 minecraft/kubejs/*/example.js
 minecraft/kubejs/config/*.properties
 
-minecraft/defaultconfigs
-minecraft/local
-minecraft/logs
-minecraft/modernfix
+minecraft/defaultconfigs/
+minecraft/local/
+minecraft/logs/
+minecraft/modernfix/
 minecraft/mods/*.jar
-minecraft/saves
-minecraft/screenshots
-minecraft/server-resource-packs
-minecraft/skyblockbuilder
-minecraft/xaero
+minecraft/saves/
+minecraft/screenshots/
+minecraft/server-resource-packs/
+minecraft/skyblockbuilder/
+minecraft/xaero/
 minecraft/XaeroWaypoints_BACKUP*/
