@@ -31,7 +31,7 @@ jobs:
         run: python packPack.py
 
       - name: Build commit message log
-        run:  echo '${{ toJson(github.event.commits) }}' | jq -r '.[] | .message' >> commit_messages.txt
+        run:  echo '${{ toJson(github.event.commits) }}' | jq -r '.[] | "\n# " + .message' >> commit_messages.txt
       
       - name: Get date
         run: echo "datetime=$(date +'%Y-%m-%d-%H-%M-%S')" >> $GITHUB_ENV
