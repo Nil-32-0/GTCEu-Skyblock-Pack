@@ -1,0 +1,37 @@
+{
+    "type": "botanypots:crop",
+    "seed": {
+        "item": "kubejs:sapless_rubber_sapling"
+    },
+    "categories": [
+        "dirt"
+    ],
+    "growthTicks": 2400,
+    "display": {
+        "block": "gtceu:rubber_sapling"
+    },
+    "drops": [
+        {
+            "chance": 1.00,
+            "output": {
+                "item": "gtceu:rubber_log"
+            },
+            "minRolls": 3,
+            "maxRolls": 3
+        },
+        {
+            "chance": 0.3,
+            "output": {
+                "item": "minecraft:stick"
+            },
+            "minRolls": 1,
+            "maxRolls": 2
+        },
+        {
+            "chance": 0.2,
+            "output": {
+                "item": "kubejs:sapless_rubber_sapling"
+            }
+        }
+    ]
+}

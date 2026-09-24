@@ -1,18 +1,18 @@
-filename = 'supermartijn642corelib-1.1.24a-forge-mc1.20.1.jar'
+filename = 'supermartijn642corelib-1.1.24b-forge-mc1.20.1.jar'
 name = "SuperMartijn642's Core Lib"
-side = 'both'
+side = ''
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.1.24a-forge-mc1.20.1'
+x-prismlauncher-version-number = '1.1.24b-forge-mc1.20.1'
 
 [download]
-hash = '7e4e6f5b9e12e48dfc47500fa9e6773e6ff43e81a11eda3ac10924fc0f011f7d8a025bb5a333718e7865560aaa8a8422a79bf700ae346686f9d6308eac492c88'
+hash = 'a544a22e1cc346fbdf7a734a652d7c21782f7a458d31ca0e31be82a667e7617ec2c7de8ecaf10a79dbe610ae1f49ae544925018edab14ba7f23cfae0b811b82f'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/rOUBggPv/versions/Rty5QRB6/supermartijn642corelib-1.1.24a-forge-mc1.20.1.jar'
+url = 'https://cdn.modrinth.com/data/rOUBggPv/versions/7fVdwsOt/supermartijn642corelib-1.1.24b-forge-mc1.20.1.jar'
 
 [update.modrinth]
 mod-id = 'rOUBggPv'
-version = 'Rty5QRB6'
+version = '7fVdwsOt'

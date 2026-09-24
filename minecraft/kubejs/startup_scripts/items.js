@@ -5,4 +5,5 @@ StartupEvents.registry("item", event => {
     event.create("unstable_redstone")
 
     event.create("apple_mush")
+    event.create("sapless_rubber_sapling").texture("gtceu:block/rubber_sapling")
 })

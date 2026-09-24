@@ -83,4 +83,9 @@ ServerEvents.recipes(event => {
             C: "compressium:cobblestone_1"
         }
     )
+
+    event.shapeless(
+        Item.of("kubejs:sapless_rubber_sapling"),
+        ['gtceu:rubber_sapling', '#forge:tools/hammers']
+    )
 })

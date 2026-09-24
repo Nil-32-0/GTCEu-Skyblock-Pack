@@ -1,18 +1,25 @@
-filename = 'jei-1.20.1-forge-15.59.0.212.jar'
+filename = 'jei-1.20.1-forge-15.62.0.216.jar'
 name = 'Just Enough Items'
 side = ''
-x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'beta'
-x-prismlauncher-version-number = '15.59.0.212'
+x-prismlauncher-version-number = '15.62.0.216'
 
 [download]
-hash = 'b559b0e470a163e79f4fb445363f9a60a0c583fc481a43a6b724c033049999a8488c7430ca1437a466e603f724b01ce76ff88d0f78a0660a23b3991db7ee8c80'
+hash = '3828cd57e283d2b77db749f18d776442c8e9c7efd43638f908161bdec4c92df9b1bf9f6ff9120adb2901a796d382f3b8ebbc687834f32d367deec3bde32c7aa9'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/u6dRKJwZ/versions/IrfJO7PN/jei-1.20.1-forge-15.59.0.212.jar'
+url = 'https://cdn.modrinth.com/data/u6dRKJwZ/versions/p5jzDqhi/jei-1.20.1-forge-15.62.0.216.jar'
 
 [update.modrinth]
 mod-id = 'u6dRKJwZ'
-version = 'IrfJO7PN'
+version = 'p5jzDqhi'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'BOHUKqOz'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '7tEfOcA7'
+type = 'REQUIRED'
