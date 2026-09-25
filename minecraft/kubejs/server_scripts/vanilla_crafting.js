@@ -88,4 +88,33 @@ ServerEvents.recipes(event => {
         Item.of("kubejs:sapless_rubber_sapling"),
         ['gtceu:rubber_sapling', '#forge:tools/hammers']
     )
+
+    event.shaped(
+        Item.of("prettypipes:pipe", 8),
+        [
+            ' R ',
+            'IPI',
+            ' C '
+        ],
+        {
+            C: "minecraft:copper_ingot",
+            I: "minecraft:iron_ingot",
+            P: "gtceu:tin_small_item_pipe",
+            R: "minecraft:redstone"
+        }
+    )
+    event.shaped(
+        Item.of("ppfluids:fluid_pipe", 8),
+        [
+            ' R ',
+            'IPI',
+            ' C '
+        ],
+        {
+            C: "minecraft:copper_ingot",
+            I: "minecraft:iron_ingot",
+            P: "gtceu:copper_small_fluid_pipe",
+            R: "minecraft:redstone"
+        }
+    )
 })
