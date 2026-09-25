@@ -1,16 +1,1 @@
-[
-  {
-    "name": "endonly",
-    "priority": 0,
-    "weather": "any",
-    "skyAccess": "any",
-    "biomeIds": [
-      "minecraft:small_end_islands",
-      "minecraft:end_midlands",
-      "minecraft:end_highlands",
-      "minecraft:end_barrens",
-      "minecraft:the_end"
-    ],
-    "strict": false
-  }
-]
+[]

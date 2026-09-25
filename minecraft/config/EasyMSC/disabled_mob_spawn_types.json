@@ -1,5 +1,5 @@
 {
-  "CHUNK_GENERATION": [
+  "NATURAL": [
     "minecraft:axolotl",
     "minecraft:bat",
     "minecraft:bee",
@@ -58,7 +58,7 @@
     "minecraft:zombie_horse",
     "minecraft:zombie_villager"
   ],
-  "NATURAL": [
+  "CHUNK_GENERATION": [
     "minecraft:axolotl",
     "minecraft:bat",
     "minecraft:bee",

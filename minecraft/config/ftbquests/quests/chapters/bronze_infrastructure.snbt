@@ -1,0 +1,169 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bronze_infrastructure"
+	group: ""
+	id: "756BE02601AD1EF2"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["39CA6187810443A6"]
+			description: [
+				"Before you can reach LV you'll need some infrastructure. In particular you'll need a Steam Separator, but that requires a lot of steam to run and bronze to create."
+				""
+				"This chapter will contain the recommendations for infrastructure you should make before you reach LV, or shortly after you reach it."
+			]
+			id: "57B36C558B243EEA"
+			tasks: [{
+				id: "469CE43B2E446F1F"
+				item: "gtceu:bronze_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"57B36C558B243EEA"
+				"7B6BE7B3E7D94E12"
+			]
+			description: ["You'll need a good supply of water to boil into Steam."]
+			id: "5DB6094170B58F92"
+			tasks: [
+				{
+					id: "36734A5F9D139CF3"
+					item: "gtceu:primitive_pump"
+					type: "item"
+				}
+				{
+					id: "1EEEDB2940DB1533"
+					item: "gtceu:pump_hatch"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "112CCCAC6264EEAA"
+					item: { Count: 10, id: "gtceu:pump_deck" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "1760BD2919F4DA44"
+					item: { Count: 10, id: "gtceu:treated_wood_frame" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5DB6094170B58F92"]
+			id: "154AD38AA18EAD4C"
+			tasks: [
+				{
+					id: "0C6EF619EDF9A5F9"
+					item: "gtceu:bronze_large_boiler"
+					type: "item"
+				}
+				{
+					id: "7EF70B1DA7F4B41B"
+					item: "gtceu:maintenance_hatch"
+					type: "item"
+				}
+				{
+					id: "54B49F9172B785C1"
+					item: "gtceu:lv_muffler_hatch"
+					type: "item"
+				}
+				{
+					id: "3ED7DB1774F0F291"
+					item: "gtceu:ulv_input_bus"
+					type: "item"
+				}
+				{
+					id: "5E0F5436367DD1D9"
+					item: "gtceu:ulv_input_hatch"
+					type: "item"
+				}
+				{
+					id: "45C5D3E673DF242D"
+					item: "gtceu:ulv_output_hatch"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3B8C8C40D2F20135"
+					item: { Count: 2, id: "gtceu:bronze_pipe_casing" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "20421FE0084EC7B8"
+					item: { Count: 5, id: "gtceu:bronze_firebox_casing" }
+					type: "item"
+				}
+				{
+					count: 23L
+					id: "3BCE95A00586113D"
+					item: { Count: 23, id: "gtceu:steam_machine_casing" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5DB6094170B58F92"]
+			description: [
+				"While you can technically make the steam multiblocks in any order, you should start with the Steam Fuser to increase how quickly you can create copper and tin, and use them to make bronze."
+				""
+				"This is one of the cheaper steam multiblocks. You'll need upwards of two stacks of bronze, assuming you are using the least efficient recipes."
+			]
+			id: "607D115924F29702"
+			tasks: [
+				{
+					id: "5EA3E4A7FF3B3942"
+					item: "gtnhthings:bronze_steam_fuser"
+					type: "item"
+				}
+				{
+					id: "167EB764C7895ECF"
+					item: "gtceu:steam_input_hatch"
+					type: "item"
+				}
+				{
+					id: "58919D9A7167F286"
+					item: "gtceu:steam_input_bus"
+					type: "item"
+				}
+				{
+					id: "1746683718792CEA"
+					item: "gtceu:steam_output_bus"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7B8FC2291FF8909F"
+					item: "gtceu:bronze_pipe_casing"
+					type: "item"
+				}
+				{
+					count: 26L
+					id: "7E34C7F627073185"
+					item: { Count: 26, id: "gtceu:steam_machine_casing" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3457E3CA5D1B0F53"
+					item: { Count: 4, id: "minecraft:glass" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+	]
+	title: "Bronze Infrastructure"
+}

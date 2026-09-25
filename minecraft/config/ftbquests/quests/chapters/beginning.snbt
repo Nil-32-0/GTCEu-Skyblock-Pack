@@ -319,6 +319,18 @@
 			x: 14.0d
 			y: 4.0d
 		}
+		{
+			dependencies: ["7B6BE7B3E7D94E12"]
+			description: ["Gold leaves take a long time to process fully, so you'll want to make this as soon as you can to start the process."]
+			id: "3B9A92F37241C7AF"
+			tasks: [{
+				id: "0864B5E2D4E59C24"
+				item: "naturesaura:gold_fiber"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.0d
+		}
 	]
 	title: "Beginning"
 }
