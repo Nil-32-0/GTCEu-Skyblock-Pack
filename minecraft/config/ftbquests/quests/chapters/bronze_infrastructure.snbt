@@ -164,6 +164,573 @@
 			x: 4.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["607D115924F29702"]
+			description: ["Once you have a better supply of bronze, you should make a steam presser to more efficiently turn it into plates."]
+			id: "55F08BB90F9052F5"
+			tasks: [
+				{
+					id: "6B3AD4E3BD1EDC40"
+					item: "gtnhthings:bronze_steam_presser"
+					type: "item"
+				}
+				{
+					id: "135151B8658CDF3F"
+					item: "gtceu:steam_input_hatch"
+					type: "item"
+				}
+				{
+					id: "269BD673B0695A35"
+					item: "gtceu:steam_input_bus"
+					type: "item"
+				}
+				{
+					id: "50D7CFE3092C26BB"
+					item: "gtceu:steam_output_bus"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "511D812B00FFBA9E"
+					item: { Count: 2, id: "gtceu:bronze_pipe_casing" }
+					type: "item"
+				}
+				{
+					count: 39L
+					id: "17237CC319FA20F5"
+					item: { Count: 39, id: "gtceu:steam_machine_casing" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2443A97ADF63929B"
+					item: { Count: 2, id: "minecraft:iron_block" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["55F08BB90F9052F5"]
+			description: ["As the final multiblock required to reach LV, build the steam separator. This multiblock can be used to create sulfur from netherrack dust, which will let you make rubber and your first LV circuits."]
+			id: "7991CFEEBF96B7A0"
+			tasks: [
+				{
+					id: "27123393EEC261F7"
+					item: "gtnhthings:bronze_steam_separator"
+					type: "item"
+				}
+				{
+					id: "170DEFA6F1F1CEC9"
+					item: "gtceu:steam_input_hatch"
+					type: "item"
+				}
+				{
+					id: "0B469864E175F425"
+					item: "gtceu:steam_input_bus"
+					type: "item"
+				}
+				{
+					id: "1CFD3AA12BDF38B3"
+					item: "gtceu:steam_output_bus"
+					type: "item"
+				}
+				{
+					id: "72D1758652E6EEF3"
+					item: "gtceu:ulv_output_hatch"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "3CD8DD6EA3C7748D"
+					item: { Count: 3, id: "gtceu:bronze_firebox_casing" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7AAE6143DDE99500"
+					item: { Count: 4, id: "gtceu:bronze_pipe_casing" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "3444A379B231344B"
+					item: { Count: 8, id: "gtceu:bronze_gearbox" }
+					type: "item"
+				}
+				{
+					count: 65L
+					id: "5F34F80E310CAFE7"
+					item: { Count: 65, id: "gtceu:steam_machine_casing" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7991CFEEBF96B7A0"]
+			id: "11DC63B879EAE4C8"
+			optional: true
+			tasks: [
+				{
+					id: "2E8BFAF77C7969D0"
+					item: "gtnhthings:bronze_steam_blender"
+					type: "item"
+				}
+				{
+					id: "036CC5DFE169E9A8"
+					item: "gtceu:steam_input_hatch"
+					type: "item"
+				}
+				{
+					id: "0AE5FF5EE0E92B2E"
+					item: "gtceu:steam_input_bus"
+					type: "item"
+				}
+				{
+					id: "466AC8F60F7F5B2E"
+					item: "gtceu:steam_output_bus"
+					type: "item"
+				}
+				{
+					id: "7352A6830D5795F2"
+					item: "gtceu:ulv_input_hatch"
+					type: "item"
+				}
+				{
+					id: "64F32B9283358F3C"
+					item: "gtceu:ulv_output_hatch"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4AFE331E3B248FF8"
+					item: { Count: 4, id: "gtceu:bronze_frame" }
+					type: "item"
+				}
+				{
+					id: "7DADBBDB07CC58F0"
+					item: "gtceu:bronze_pipe_casing"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "02F05478F56E292E"
+					item: { Count: 2, id: "gtceu:bronze_gearbox" }
+					type: "item"
+				}
+				{
+					count: 35L
+					id: "5EC0287E4D243326"
+					item: "gtceu:steam_machine_casing"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7991CFEEBF96B7A0"]
+			id: "042AB7376461CA66"
+			optional: true
+			tasks: [
+				{
+					id: "349C172D7138CBB0"
+					item: "gtnhthings:bronze_steam_squasher"
+					type: "item"
+				}
+				{
+					id: "274521265132882E"
+					item: "gtceu:steam_input_hatch"
+					type: "item"
+				}
+				{
+					id: "6296A9740400B0A3"
+					item: "gtceu:steam_input_bus"
+					type: "item"
+				}
+				{
+					id: "1822E709F5ED9890"
+					item: "gtceu:steam_output_bus"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "52C9612A1640762B"
+					item: { Count: 10, id: "gtceu:bronze_pipe_casing" }
+					type: "item"
+				}
+				{
+					count: 27L
+					id: "2C904AA8A0F48622"
+					item: { Count: 27, id: "gtceu:steam_machine_casing" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "34411DB9A9B36F4D"
+					item: { Count: 6, id: "minecraft:iron_block" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7991CFEEBF96B7A0"]
+			id: "5D7A0CDE638D1B37"
+			optional: true
+			tasks: [
+				{
+					id: "148C1FF6FCD5BD3B"
+					item: "gtceu:steam_grinder"
+					type: "item"
+				}
+				{
+					id: "0774E8D5327C594B"
+					item: "gtceu:steam_input_hatch"
+					type: "item"
+				}
+				{
+					id: "1BD00EED8F46DB53"
+					item: "gtceu:steam_input_bus"
+					type: "item"
+				}
+				{
+					id: "041D7FEABB3D9E26"
+					item: "gtceu:steam_output_bus"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "40D26A6173482925"
+					item: { Count: 8, id: "gtceu:bronze_frame" }
+					type: "item"
+				}
+				{
+					id: "01C4E40A2164E178"
+					item: "gtceu:bronze_gearbox"
+					type: "item"
+				}
+				{
+					count: 17L
+					id: "4125798C1C96F6A1"
+					item: { Count: 17, id: "gtceu:steam_machine_casing" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["607D115924F29702"]
+			id: "1AC0776B1C7A838A"
+			optional: true
+			tasks: [
+				{
+					id: "504D276CF30C0834"
+					item: "gtnhthings:steel_steam_fuser"
+					type: "item"
+				}
+				{
+					id: "5E7541217531FE08"
+					item: "gtceu:steam_input_hatch"
+					type: "item"
+				}
+				{
+					id: "496BF472D013F893"
+					item: "gtceu:steam_input_bus"
+					type: "item"
+				}
+				{
+					id: "6C05F95B447100AD"
+					item: "gtceu:steam_output_bus"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3BA3C6E2BBE8B8C5"
+					item: "gtceu:steel_pipe_casing"
+					type: "item"
+				}
+				{
+					count: 26L
+					id: "2ED31F867CB3D2EB"
+					item: "gtceu:solid_machine_casing"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5B7356E9A93E1CBA"
+					item: { Count: 4, id: "minecraft:glass" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["55F08BB90F9052F5"]
+			id: "4DDB9FFC2E8F85E1"
+			optional: true
+			tasks: [
+				{
+					id: "6F30CA03698188C8"
+					item: "gtnhthings:steel_steam_presser"
+					type: "item"
+				}
+				{
+					id: "4BCC0205822E96C7"
+					item: "gtceu:steam_input_hatch"
+					type: "item"
+				}
+				{
+					id: "6064FB27851A3A3F"
+					item: "gtceu:steam_input_bus"
+					type: "item"
+				}
+				{
+					id: "4DC0D1AC8ABD38DB"
+					item: "gtceu:steam_output_bus"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7B6C2F6B8E5DD503"
+					item: "gtceu:steel_pipe_casing"
+					type: "item"
+				}
+				{
+					count: 39L
+					id: "75438171E5F49737"
+					item: "gtceu:solid_machine_casing"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "45A8DCD6A67D1E40"
+					item: { Count: 2, id: "minecraft:iron_block" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7991CFEEBF96B7A0"]
+			id: "02C52C7F27E06389"
+			optional: true
+			tasks: [
+				{
+					id: "0FE17DF5F9FA8002"
+					item: "gtnhthings:steel_steam_separator"
+					type: "item"
+				}
+				{
+					id: "2C03E1A33372E4ED"
+					item: "gtceu:steam_input_hatch"
+					type: "item"
+				}
+				{
+					id: "3F26CD242D888303"
+					item: "gtceu:steam_input_bus"
+					type: "item"
+				}
+				{
+					id: "1CA732F5D6E16620"
+					item: "gtceu:steam_output_bus"
+					type: "item"
+				}
+				{
+					id: "7C6A436CF974CC37"
+					item: "gtceu:ulv_output_hatch"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "3A3AF20ECEAA54CC"
+					item: "gtceu:steel_firebox_casing"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "53AA9CE3FAFAC284"
+					item: "gtceu:steel_pipe_casing"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "3A75D27660A35A2B"
+					item: "gtceu:steel_gearbox"
+					type: "item"
+				}
+				{
+					count: 65L
+					id: "7D6369C67B1E5688"
+					item: "gtceu:solid_machine_casing"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5D7A0CDE638D1B37"]
+			id: "13F155D144A80FFD"
+			optional: true
+			tasks: [
+				{
+					id: "5921B9E8D1D1A509"
+					item: "gtnhthings:steel_steam_grinder"
+					type: "item"
+				}
+				{
+					id: "697C6F68190C071A"
+					item: "gtceu:steam_input_hatch"
+					type: "item"
+				}
+				{
+					id: "15A54D1E7312308B"
+					item: "gtceu:steam_input_bus"
+					type: "item"
+				}
+				{
+					id: "133396749B0918B5"
+					item: "gtceu:steam_output_bus"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "70E494C336BAAF62"
+					item: "gtceu:steel_frame"
+					type: "item"
+				}
+				{
+					id: "0D2C94B6C0CD6E9B"
+					item: "gtceu:steel_gearbox"
+					type: "item"
+				}
+				{
+					count: 17L
+					id: "49A5F34968736C46"
+					item: "gtceu:solid_machine_casing"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["042AB7376461CA66"]
+			id: "46097C192D6C57FB"
+			optional: true
+			tasks: [
+				{
+					id: "54EE82FD97AC9AF8"
+					item: "gtnhthings:steel_steam_squasher"
+					type: "item"
+				}
+				{
+					id: "38EB96476B68D5FF"
+					item: "gtceu:steam_input_hatch"
+					type: "item"
+				}
+				{
+					id: "3514F2B88E6FF319"
+					item: "gtceu:steam_input_bus"
+					type: "item"
+				}
+				{
+					id: "07C47E9CA4A44A9D"
+					item: "gtceu:steam_output_bus"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "03F769692819329B"
+					item: "gtceu:steel_pipe_casing"
+					type: "item"
+				}
+				{
+					count: 27L
+					id: "5C4EE1A6981280CF"
+					item: "gtceu:solid_machine_casing"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "3ECE1D2998F415B9"
+					item: { Count: 6, id: "minecraft:iron_block" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["11DC63B879EAE4C8"]
+			id: "76442045E80BED2B"
+			optional: true
+			tasks: [
+				{
+					id: "6777D590C99811A5"
+					item: "gtnhthings:steel_steam_blender"
+					type: "item"
+				}
+				{
+					id: "434C705018850834"
+					item: "gtceu:steam_input_hatch"
+					type: "item"
+				}
+				{
+					id: "267D8031A978CAFF"
+					item: "gtceu:steam_input_bus"
+					type: "item"
+				}
+				{
+					id: "39DA2EA3CC9E38DE"
+					item: "gtceu:steam_output_bus"
+					type: "item"
+				}
+				{
+					id: "22EE6CBD7297E8AF"
+					item: "gtceu:ulv_input_hatch"
+					type: "item"
+				}
+				{
+					id: "5360418210169CAF"
+					item: "gtceu:ulv_output_hatch"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6D6A80EC17C1169E"
+					item: "gtceu:steel_frame"
+					type: "item"
+				}
+				{
+					id: "7E4C75F5164CE013"
+					item: "gtceu:steel_pipe_casing"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "11F18BB18D9D8CA2"
+					item: "gtceu:steel_gearbox"
+					type: "item"
+				}
+				{
+					count: 35L
+					id: "626507C17F062172"
+					item: "gtceu:solid_machine_casing"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -4.0d
+		}
 	]
 	title: "Bronze Infrastructure"
 }
