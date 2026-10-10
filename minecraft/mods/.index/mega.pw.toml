@@ -1,0 +1,45 @@
+filename = 'megacells-forge-2.4.6-1.20.1.jar'
+name = 'MEGA Cells'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'forge-2.4.6'
+
+[download]
+hash = 'a4fe5ee459310785e3bfb2ec7ceab5fb817e2faa26397599cbb6a114147a0199254df2e35d110aa31b07379ac36a246fa4d5dac07020384316eb47ba6b322e25'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/jjuIRIVr/versions/SH2D1n3s/megacells-forge-2.4.6-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'jjuIRIVr'
+version = 'SH2D1n3s'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'IJI3QuK8'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'IiATswDj'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '545hUrw9'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '9s6osm5g'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'SyKS54UY'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'XxWD5pD3'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'pNabrMMw'
+type = 'OPTIONAL'

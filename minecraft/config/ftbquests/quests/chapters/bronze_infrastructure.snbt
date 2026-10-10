@@ -59,21 +59,24 @@
 		}
 		{
 			dependencies: ["5DB6094170B58F92"]
+			description: ["While it is possible to power your steam multiblocks with small boilers, a large boiler will make it much easier. Have a few parts so you can create one before reaching rubber."]
 			id: "154AD38AA18EAD4C"
+			rewards: [
+				{
+					id: "7BF3CAE2C21BBDB3"
+					item: "gtceu:lv_muffler_hatch"
+					type: "item"
+				}
+				{
+					id: "430FD72C68A4E34A"
+					item: "gtceu:maintenance_hatch"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "0C6EF619EDF9A5F9"
 					item: "gtceu:bronze_large_boiler"
-					type: "item"
-				}
-				{
-					id: "7EF70B1DA7F4B41B"
-					item: "gtceu:maintenance_hatch"
-					type: "item"
-				}
-				{
-					id: "54B49F9172B785C1"
-					item: "gtceu:lv_muffler_hatch"
 					type: "item"
 				}
 				{
