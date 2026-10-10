@@ -10,10 +10,10 @@ ServerEvents.recipes(event => {
         .itemOutputs(Item.of("minecraft:coal"))
         .duration(300)
 
-    event.recipes.gtceu.alloy_smelter("high_covalence_dust")
+    event.recipes.gtceu.alloy_smelter("compact_medium_covalence_dust_ball")
         .itemInputs(Item.of("kubejs:medium_covalence_dust_block", 3))
         .notConsumable("gtceu:ball_casting_mold")
-        .itemOutputs(Item.of("projecte:high_covalence_dust"))
+        .itemOutputs(Item.of("kubejs:compact_medium_covalence_dust_ball"))
         .EUt(GTValues.V[GTValues.ULV]).duration(600)
 
     event.recipes.gtceu.alloy_smelter("small_redstone_dust")

@@ -7,4 +7,10 @@ ServerEvents.recipes(event => {
     event.replaceInput({output: "cobblefordays:tier_5"}, "minecraft:glass", Item.of("cobblefordays:tier_4"))
 
     event.replaceInput({output: "gtceu:bronze_large_boiler"}, "#gtceu:circuits/lv", Item.of("gtceu:vacuum_tube"))
+
+    mystical_flower_types.forEach(type => {
+        event.replaceOutput({input: "#minecraft:flowers", output: "botania:" + type + "_petal"}, 
+            "botania:" + type + "_petal", Item.of("kubejs:inert_" + type + "_petal")
+        )
+    })
 })
